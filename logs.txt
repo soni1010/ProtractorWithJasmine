@@ -1,0 +1,35 @@
+[18:53:41] I/launcher - Running 1 instances of WebDriver
+[18:53:41] I/direct - Using ChromeDriver directly...
+Sheet1
+Started
+Jasmine started
+homepage opening done !
+[32m.[0m
+  Guru99 homepage Opening !
+    [32m√ Open Browser with Guru99 homepage ![39m
+
+[32m.[0m  Guru99 Web_Header and fields under it Checking
+    [32m√ click on Web and Screenshot[39m
+
+[32m.[0m  Guru99 Testing_Header and fields under it Checking
+    [32m√ click on Testing and Screenshot[39m
+
+[32m.[0m  Guru99 SAP_Header and fields under it Checking
+    [32m√ click on SAP and Screenshot[39m
+
+[32m.[0m  Guru99 BigData_Header and fields under it Checking
+    [32m√ click on BigData and Screenshot[39m
+
+[32m.[0m  Guru99 LiveProjects_Header and fields under it Checking
+    [32m√ click on Live_Projects and Screenshot[39m
+
+
+
+
+6 specs, 0 failures
+Finished in 9.02 seconds
+
+
+Executed 6 of 6 specs[32m SUCCESS[39m in 9 secs.
+[18:53:53] I/launcher - 0 instance(s) of WebDriver still running
+[18:53:53] I/launcher - chrome #01 passed
