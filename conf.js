@@ -8,7 +8,7 @@ exports.config = {
   //seleniumAddress: 'http://localhost:4444/wd/hub',
 
   //All Scripts Timeout
-  allScriptTimeout:20000,
+  allScriptsTimeout:200000,
   framework: 'jasmine2',
   
   specs: [  //'./Scripts/simple_specs.js',
@@ -38,11 +38,12 @@ exports.config = {
 				  ],
 		'perfLoggingPrefs':{
 			'enableNetwork':true
-		}
+			}
 		}
 	}
-	],
-	onPrepare:function(){
+  ],
+
+onPrepare:function(){
 		
 /*-|-------------------------------------------------------------------------------------------------|-
    |						Angular Or Non Angular SITE                                              |
@@ -60,7 +61,7 @@ exports.config = {
 	
 	global.to_json=function(workbook,sheetName){
 		
-		var result={};
+	  var result={};
 		var roa=excel.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
 		if(roa.length>0){
 			result[sheetName]=roa;
@@ -90,21 +91,6 @@ exports.config = {
    |						Console Reporting                                                        |
 ---|-------------------------------------------------------------------------------------------------|-*/   
 	
-	// jasmineNodeOpts:{ defaultTimeoutInterval:200000,
-	// 				  displaySpecDuration:true,
-	// 				  print:function(){}
-	// 				},
-	
-	// colors:{
-	// 		  success:'green',
-	// 		  failure:'red',
-	// 		  pending:'yellow'
-	// 		},
-	
-	// prefixes:{
-	// 	success:'$',
-	// 	failure:'#',
-	// 	pending:'*'
-	// }
-  }
+	// 
+}
 };
