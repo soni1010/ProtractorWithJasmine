@@ -13,7 +13,7 @@ exports.config = {
   
   specs: [  //'./Scripts/simple_specs.js',
   			'./Common/open_home_page.js',
-  			'./Guru99_Scripts/guru99_testing.js',
+  			'./HomePage Headers and Fields Checking/HeadersAndChieldFieldsTesting.js',
   		  ],
 
  
