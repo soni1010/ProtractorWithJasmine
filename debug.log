@@ -4,3 +4,7 @@
 [1224/084334.440:ERROR:exception_snapshot_win.cc(87)] thread ID 44932 not found in process
 [1224/084334.440:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
 [1224/084334.440:ERROR:scoped_process_suspend.cc(39)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[1227/071412.364:ERROR:process_info.cc(632)] range at 0x93b12d3400000000, size 0xd4 fully unreadable
+[1227/071412.364:ERROR:process_info.cc(632)] range at 0x93b12d9a00000000, size 0xd4 fully unreadable
+[1227/071412.365:ERROR:process_info.cc(632)] range at 0x0, size 0xd4 fully unreadable
+[1227/071412.412:ERROR:scoped_process_suspend.cc(39)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
