@@ -7,6 +7,12 @@ describe('Google Search Engine !', function() {
 	
 	//console log !
 	console.log('Test 1 Start Point!');
+
+	//console log !
+	console.log('Test 1 Start Point!');
+
+	//console log !
+	console.log('Test 1 Start Point!');
 	
 	//set browser window to some paticular size !
 	browser.driver.manage().window().setSize(800, 600);
