@@ -33,9 +33,6 @@ describe('Dream input in Google Search Box', function() {
 	//console log !
 	console.log('Test 2 Start Point!');
 	
-	//console log !
-	console.log('Test 2 Start Point!');
-	
 	//set browser window to some paticular size !
 	browser.driver.manage().window().setSize(800, 600);
 	
