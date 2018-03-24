@@ -4,12 +4,6 @@ beforeEach(function() {
 
 describe('Google Search Engine !', function() {
   it('My Name in searchBox', function() {
-	
-	//console log !
-	console.log('Test 1 Start Point!');
-
-	//console log !
-	console.log('Test 1 Start Point!');
 
 	//console log !
 	console.log('Test 1 Start Point!');
@@ -35,6 +29,9 @@ describe('Google Search Engine !', function() {
 
 describe('Dream input in Google Search Box', function() {
   it('My Dream in searchBox', function() {
+	
+	//console log !
+	console.log('Test 2 Start Point!');
 	
 	//console log !
 	console.log('Test 2 Start Point!');
