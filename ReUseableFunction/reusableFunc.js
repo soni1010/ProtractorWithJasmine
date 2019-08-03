@@ -30,6 +30,7 @@ this.findDataTest=function(expVal,ActVal){
 
 this.getURL=function(url){
 	browser.driver.get(url);
+	browser.driver.get(url);
 	browser.driver.sleep(3000);
 };
 
