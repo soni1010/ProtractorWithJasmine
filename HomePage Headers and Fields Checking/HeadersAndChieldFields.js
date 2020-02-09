@@ -12,8 +12,8 @@ userStory_row=reFunc.findData('row1');
 describe('Header Fields and Fields under it Checking', function() {
   it('click on Web, verification of all fields and one screenshot', function() {
 
-  	//click on Web Header
-    //browser.findElement(By.xpath('//li/a/span[text()="Web"]')).click();
+  	//click on Web Headers
+    //browser.findElement(By.xpath('//li/li/span[text()="Web"]')).click();
     Web_Header.click();
     HeadersAndChieldFields.VerifyHeaderAndChieldsField(Web_Header,'Web');
 
