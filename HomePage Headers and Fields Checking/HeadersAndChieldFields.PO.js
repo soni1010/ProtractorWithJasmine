@@ -2,11 +2,11 @@
 //HomePage Headers and Fields elements
 //Headers
 Web_Header    	= element(By.xpath('//li/a/span[text()="Web"]'));
-Java_Field		= element(by.xpath('//li/a/span[text()="Java"]'));
+Java_Field	= element(by.xpath('//li/a/span[text()="Java"]'));
 Python_Field	= element(by.xpath('//li/a/span[text()="Python"]'));
 Apache_Field	= element(by.xpath('//li/a/span[text()="Apache"]'));
-JSP_Field		= element(by.xpath('//li/a/span[text()="JSP"]'));
-SQL_Field		= element(by.xpath('//li/a/span[text()="SQL"]'));
+JSP_Field	= element(by.xpath('//li/a/span[text()="JSP"]'));
+SQL_Field	= element(by.xpath('//li/a/span[text()="SQL"]'));
 
 var HeadersAndChieldFields=function(){
 
